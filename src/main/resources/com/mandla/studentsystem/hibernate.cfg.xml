@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC
+		"-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+		"https://hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+	<session-factory>
+            <!-- Database connection properties - Driver, URL, user, password -->
+            <property name="hibernate.connection.driver_class">com.mysql.cj.jdbc.Driver</property>
+            <property name="hibernate.connection.url">jdbc:mysql://highschoolsystem.cb8mgc2sy58j.af-south-1.rds.amazonaws.com:3306/highschool</property>
+            <property name="hibernate.connection.username">mmlotshwa</property>
+            <property name="hibernate.connection.password">20$HighCool#24</property>
+            
+            <mapping class="com.mandla.studentsystem.entities.Student" />
+            <mapping class="com.mandla.studentsystem.entities.GradeName" />
+            <mapping class="com.mandla.studentsystem.entities.Subject" />
+            <mapping class="com.mandla.studentsystem.entities.Teacher" />
+            <mapping class="com.mandla.studentsystem.entities.GradeTeacher" />
+            <mapping class="com.mandla.studentsystem.entities.TermSystem" />
+            <mapping class="com.mandla.studentsystem.entities.SubjectTeacher" />
+            <mapping class="com.mandla.studentsystem.entities.Registration" />
+            <mapping class="com.mandla.studentsystem.entities.CommentList" />
+            <mapping class="com.mandla.studentsystem.entities.SubjectSchedules" />
+            <mapping class="com.mandla.studentsystem.entities.SubjectSummaries" />
+            <mapping class="com.mandla.studentsystem.entities.GradesSummaries" />
+            <mapping class="com.mandla.studentsystem.entities.StudentSummaries" />
+            <mapping class="com.mandla.studentsystem.entities.LanguageChoice" />
+            <mapping class="com.mandla.studentsystem.entities.PracticalChoice" />
+            <mapping class="com.mandla.studentsystem.entities.SpecializationChoice" />
+
+	</session-factory>
+</hibernate-configuration>
