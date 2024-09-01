@@ -14,11 +14,4 @@ A Java-Based Student Marks System that manages the term to term students' subjec
     
 4.  ORM: Hibernate - uses Hibernate entities for Object-Relational Mapping and Repositories with a SessionFactory to populate the entities/database with session data. Uses the hibernate.cfg.xml for database connectivity properties.....
 5.  Program has a lot of operational test data for you to explore how it works...
-6.  Program file structure:
-          Student System
-                 |-----------
-                 |
-                 |
-                 |
-                 |
-                 |
+6.  See the folders and their contents for Program file structure.
